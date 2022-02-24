@@ -3,8 +3,8 @@ XML files and a tutorial on how to modify Android apps to add themed icons to th
 
 # Using PC
 
-To apply icons, first pull or download the apk file. After you have it saved, decompile the APK using apktool. After that, go to `res/drawable/` and add the .xml file corresponding to the app you want to add.
-Next, navigate to `res/mipmap-anydpi-v26/ic_launcher.xml` and open the file. Near the end, add 
+To apply icons, first pull or download the apk file. After you have it saved, decompile the APK using apktool. <br> After that, go to `res/drawable/` and add the .xml file corresponding to the app you want to add. <br>
+Next, navigate to `res/mipmap-anydpi-v26/ic_launcher.xml` and open the file. Near the end, add:
 ```xml 
 <monochrome android:drawable="@drawable/themed_icon_app" />
 ```
